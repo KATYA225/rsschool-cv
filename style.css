@@ -30,6 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .nav-link {
@@ -41,4 +42,25 @@ body {
 }
 .nav-link:hover {
     color: #000000;
+}
+
+.main {
+    color: #000000;
+}
+
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section > ul {
+    line-height: 30px;
+}
+
+.section-title {
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    text-decoration: none;
 }
