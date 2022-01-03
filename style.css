@@ -64,3 +64,34 @@ body {
 .contact-link {
     text-decoration: none;
 }
+
+.footer {
+    background-color: darkgray;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+    color: white;
+    transition: color 0.5s;
+}
+
+.year-github-block {
+
+}
+
+.rs-logo {
+    width: 100px;
+    height: 40px;
+    background-image: url("./assets/svg/logo-rs-school.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
