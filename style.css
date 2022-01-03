@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {   
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+.header {
+    background-color:darkgray;
+  }
+
+.nav-list {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+    color: white;
+    transition: color 0.5s;
+}
+.nav-link:hover {
+    color: #000000;
+}
